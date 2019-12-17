@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{e082d404-304f-4cbe-afa3-1ad286980c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm\calibrate">
+      <UniqueIdentifier>{774739fd-47d0-452b-892d-0c970b6f256d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm\iniFile">
+      <UniqueIdentifier>{a80ade36-bbcb-4d35-9992-26bd1ee8ad58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm\table">
+      <UniqueIdentifier>{cf5b35c2-de73-4658-a282-71a1a6671fac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\360LookaroundMontageAlg.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\calibrate\CalibrateFisheye.cpp">
+      <Filter>algorithm\calibrate</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\calibrate\CCalibrate.cpp">
+      <Filter>algorithm\calibrate</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\calibrate\fisheye.cpp">
+      <Filter>algorithm\calibrate</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\iniFile\inirw.c">
+      <Filter>algorithm\iniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\table\Generate3Dtable.cpp">
+      <Filter>algorithm\table</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\table\Generatetable.cpp">
+      <Filter>algorithm\table</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="algorithm\360LookaroundMontageAlg.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\common.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\calibrate\CalibrateFisheye.h">
+      <Filter>algorithm\calibrate</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\calibrate\CCalibrate.h">
+      <Filter>algorithm\calibrate</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\calibrate\fisheye.hpp">
+      <Filter>algorithm\calibrate</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\calibrate\precomp.hpp">
+      <Filter>algorithm\calibrate</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\iniFile\inirw.h">
+      <Filter>algorithm\iniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\table\Generate3Dtable.h">
+      <Filter>algorithm\table</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\table\Generatetable.h">
+      <Filter>algorithm\table</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
